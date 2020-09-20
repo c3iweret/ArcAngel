@@ -1,0 +1,17 @@
+.Overview {
+  margin-left: 15em;
+}
+
+.NoAccess {
+  margin-left: 15em;
+  text-align: center;
+  background: radial-gradient(rgb(240, 240, 240), rgb(210, 210, 210));
+}
+
+.NoAccess img {
+  filter: contrast(0.5%);
+}
+
+.Space {
+  height: 20em;
+}

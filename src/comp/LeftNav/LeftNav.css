@@ -1,0 +1,85 @@
+.ThatCircle {
+  display: block;
+  width: 5em;
+  padding-top: 1em;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.LeftNav {
+  position: absolute;
+  display: block;
+  width: 15em;
+  height: 100%;
+  background-color: rgb(230,230,230);
+}
+
+.LeftNav-Title {
+  padding-top: 1em;
+  text-align: center;
+  font-family: 'Lato-Regular'
+}
+
+.Arkangel img {
+  width: 4em !important;
+}
+
+.LeftNav-Container {
+  width: 100%;
+  text-align: center;
+  vertical-align: middle;
+  font-family: 'Roboto-Condensed'
+}
+
+.LeftNav-Container button {
+  background: none;
+  border: none;
+  width: 100%;
+  cursor: pointer;
+}
+
+.LeftNav-Item {
+  padding: 0.75em 0.5em 0.25em 0.5em;
+}
+
+.LeftNav-Item:hover {
+  background-color: rgb(210, 210, 210);
+}
+
+.LeftNav-Item img {
+  width: 2em;
+  padding-bottom: 0.5em;
+}
+
+.Emergency {
+  color: red !important;
+}
+
+.input-group-append {
+  padding: 0.5em;
+  background-color: rgb(240, 240, 240);
+  border-radius: 5px;
+  border: 1px solid rgb(210, 210, 210);
+}
+
+
+.input-group-append button {
+  width: 1.5em;
+  height: 1.5em;
+  background-image: url("/images/passhide.png");
+  background-size: contain;
+  background-color: transparent;
+  border: none;
+}
+.Profile-Overview{
+/*  display: inline-block;
+  */
+}
+.input-group-append:hover {
+  background-color: rgb(210, 210, 210);
+}
+
+a {
+  color: inherit !important;
+  text-decoration: none !important;
+}

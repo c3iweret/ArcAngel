@@ -1,0 +1,23 @@
+.Appointments {
+  margin-left: 15em;
+}
+
+.btn-left{
+  margin-right:1em;
+}
+.input-group {
+  padding: 0.5em;
+
+  background-color: rgb(240, 240, 240);
+  border-radius: 5px;
+  border: 1px solid rgb(210, 210, 210);
+}
+
+.input-group input{
+  width:100%;
+}
+
+
+.Appointments-Entry {
+  padding-top: 2em !important;
+}

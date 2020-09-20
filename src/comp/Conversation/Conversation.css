@@ -1,0 +1,140 @@
+
+* {
+  overflow-x: hidden;
+}
+.Conversation-Background {
+  margin-left: 15em;
+  padding: 1.5em;
+}
+
+.Conversation-Container {
+  max-width: 100%;
+  margin: 50px auto;
+	word-wrap: break-word;
+	margin-bottom: 12px;
+  line-height: 24px;
+
+  &:after {
+    content: "";
+    display:inline-block;
+    /*display: table;
+    */clear: both;
+  }
+}
+
+.Conversation-View {
+  margin: 1em;
+  background-color: rgb(240, 240, 240);
+  height: 40em;
+  padding: 3em;
+  width: auto;
+  overflow-y: scroll;
+}
+
+.clear {
+  clear: both;
+}
+
+.Conversation-Bubble-Text {
+  position: relative;
+  width: 80%;
+  max-width: 45%;
+  padding: 10px 20px;
+  background-color:#0B93F6;
+  color: white;
+  border-radius: 10px;
+  float: right;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.Conversation-Bubble-TextAI {
+  float: left;
+  max-width: 45%;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #E5E5EA;
+  word-wrap: break-word;
+}
+
+.Conversation-MessageForm {
+  display: block;
+  width: 100%;
+  transition: 0.5s;
+  text-align: center;
+}
+
+.Conversation-MessageForm-Hidden {
+  width: 0;
+  border: 0;
+  transition: 0.25s;
+}
+
+.Conversation-MessageForm-Input {
+  display: inline-block;
+  width: 25em;
+  transition: 0.5s;
+  padding: 0.5em;
+  border-radius: 15px;
+  border: 2px solid black;
+  margin: 0 auto;
+}
+
+.Conversation-MessageForm-Input:hover {
+  border-color: rgb(11, 147, 246, 0.8);
+}
+
+.Conversation-MessageIcon {
+  width: 4em;
+  display: block;
+  margin: 0 auto;
+  border: none !important;
+}
+
+.Conversation-MessageIcon-Holder {
+  width: auto;
+  display: inline-block;
+  background: none;
+  border: 0;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+
+.Conversation-MessageIcon-Holder-Green {
+  width: auto;
+  display: inline-block;
+  background-color: green;
+  border: 0;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+
+.Conversation-MessageIcon-Holder:hover {
+  background-color: rgb(11, 147, 246, 0.8);
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.Conversation-MessageIcon-Holder2 {
+  transition: 0.5s;
+}
+
+.Conversation-MessageForm-InputButton {
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 0.5em;
+  margin-bottom: 0.75em;
+  margin-left: 0.5em;
+  border: 2px solid black !important;
+}
+
+.Conversation-MessageForm-InputButton-Hidden {
+  display: none;
+  transition: 0.5s;
+}
+.Conversation-MessageIcon-Container {
+  display: block;
+  width: 100%;
+  text-align: center;
+}

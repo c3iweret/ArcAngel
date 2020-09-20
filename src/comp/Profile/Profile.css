@@ -1,0 +1,29 @@
+.Profile-Background {
+
+}
+
+.Profile-Photo {
+  display: block;
+  border-radius: 50%;
+  width: 10em;
+  margin: 0 auto;
+  border: 2px solid black;
+}
+
+.Profile-Name {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  text-align: center;
+}
+
+.Profile-Emergency-Title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.Profile-Emergency {
+  padding-left: 1em;
+  padding-right: 1em;
+  background-color: rgb(255, 255, 255);
+}

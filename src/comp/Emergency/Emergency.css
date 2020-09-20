@@ -1,0 +1,36 @@
+.EmergencyPage {
+  margin-left: 15em;
+}
+
+.EmergencyPage .card {
+  display: inline-block;
+  vertical-align: top;
+  margin: 2em;
+  width: 25em;
+}
+
+.EmergencyPage .card2 {
+  display: inline-block;
+  vertical-align: top;
+  margin: 2em;
+  width: 25em;
+}
+
+.EmergencyPage .card-body3 {
+  display: inline-block;
+  padding: 1em;
+  text-align: left;
+}
+
+.EmergencyPage .card-body2 {
+  display: inline-block;
+  text-align: left;
+  padding: 1em;
+}
+
+.Severe{
+  color:red;
+}
+.Moderate{
+  color:green;
+}

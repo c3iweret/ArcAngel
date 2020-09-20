@@ -1,0 +1,96 @@
+@font-face {
+  font-family: 'Lato-Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/Lato/Lato-Regular.ttf'); /* IE9 Compat Modes */
+}
+
+@font-face {
+  font-family: 'Raleway-Light';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/Raleway/Raleway-Light.ttf'); /* IE9 Compat Modes */
+}
+
+@font-face {
+  font-family: 'Roboto-Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf'); /* IE9 Compat Modes */
+}
+
+.center {
+  width: 100%;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.container img {
+  transition:  all 0.2s ease-in-out;
+}
+
+.container {
+  margin-top: 4em;
+  display: block;
+}
+
+.overlay-container {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: -1;
+}
+
+.box {
+  width: 19.2em;
+  height: 12.5em;
+  margin: 0 auto;
+  margin-top: 32.5em;
+  border-radius: 1em;
+  background-color: #3caf85;
+  transition: 0.5s;
+}
+
+.boxHidden {
+  width: 19.2em;
+  height: 0em;
+  margin: 0 auto;
+  margin-top: 32.5em;
+  border-radius: 1em;
+  background-color: #194434;
+  transition: 0.5s;
+}
+
+.title {
+  font-size: 4em;
+  font-family: 'Raleway-Light';
+  font-weight: 800;
+  text-align: center;
+  transition: all 0.2s;
+}
+
+.title:hover {
+  color: #247BA0;
+}
+
+.subTitle {
+  font-size: 2em;
+  margin-bottom: 1em;
+  font-family: 'Roboto-Condensed';
+}
+
+.background {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background-color: rgb(220, 220, 225);
+  height: 100%;
+  background-image: url("/images/white3.jpg");
+}
+
+.logo {
+  width: 10em;
+  text-align: center;
+}

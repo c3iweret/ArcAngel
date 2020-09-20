@@ -1,0 +1,29 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@google-cloud/speech": "^1.5.0",
+    "bootstrap": "^4.1.1",
+    "connect": "^3.6.6",
+    "firebase": "^5.0.4",
+    "jquery": "^3.3.1",
+    "node-key-sender": "^1.0.10",
+    "node-record-lpcm16": "^0.3.0",
+    "react": "^16.4.0",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.4.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.4",
+    "reactstrap": "^6.0.1",
+    "serialport": "^6.2.0",
+    "serve-static": "^1.13.2",
+    "watson-developer-cloud": "^3.4.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
